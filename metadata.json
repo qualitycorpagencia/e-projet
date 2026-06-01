@@ -1,0 +1,6 @@
+{
+  "name": "E-Projet",
+  "description": "Site institucional de soluções em automação industrial, engenharia elétrica, projetos elétricos e energia solar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -6,7 +6,7 @@ export const SERVICES_DATA: ServiceCard[] = [
     title: "Automação Industrial",
     description: "Desenvolvimento e integração de arquiteturas de automação robustas, focadas em maximizar a eficiência operacional, segurança e a continuidade de processos industriais complexos.",
     iconName: "Cpu",
-    imageUrl: "https://lh3.googleusercontent.com/d/1zRb1juq9FZ6K24fMLWRCQQlzGS04NJEz",
+    imageUrl: "/automacao-industrial.jpg",
     details: [
       "Programação e configuração de CLPs e SDCDs de alta disponibilidade (Siemens, Rockwell, Schneider Electric)",
       "Desenvolvimento de sistemas supervisórios e IHMs avançadas (plantPAX, Elipse E3/Power, WinCC)",
@@ -32,7 +32,7 @@ export const SERVICES_DATA: ServiceCard[] = [
     title: "Projetos Industriais",
     description: "Desenvolvimento de projetos executivos multidisciplinares e documentação técnica precisa para implantação, ampliação e modernização de ativos industriais.",
     iconName: "FileText",
-    imageUrl: "https://lh3.googleusercontent.com/d/1fKV8a28aNevUSNNLjd_-fbw7LK8o8j2W",
+    imageUrl: "/projetos-industriais.jpg",
     details: [
       "Detalhamento eletromecânico, dimensionamento e diagramas de rotas de cabos (leitos, canaletas e eletrodutos)",
       "Laudos de adequação e projetos de engenharia focados em segurança operacional (NR-10 e NR-12)",
@@ -71,7 +71,7 @@ export const SERVICES_DATA: ServiceCard[] = [
     title: "Infraestrutura de Data Center",
     description: "Projetos e implantação de ambientes de missão crítica, focados em máxima disponibilidade, redundância rígida e segurança física para o processamento de dados industriais.",
     iconName: "Server",
-    imageUrl: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=800",
+    imageUrl: "/data-center.jpg",
     details: [
       "Sistemas de energia ininterrupta de alta confiabilidade (UPS/Nobreaks modulares e paralelos redundantes)",
       "Sistemas de climatização de precisão (CRAC) com controle termo-higrométrico e redundância ativa",

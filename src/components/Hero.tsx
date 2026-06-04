@@ -22,7 +22,7 @@ export default function Hero() {
       {/* Background with Dark Overlays */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://lh3.googleusercontent.com/d/1-hJ8dIb70AYUxpjVWxm-oNKZ1N9S9fhA"
+          src="/hero-bg.jpg"
           alt="E-Projet Automação Industrial Plant"
           className="w-full h-full object-cover object-center md:object-right transition-all duration-700"
           referrerPolicy="no-referrer"

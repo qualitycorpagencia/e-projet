@@ -84,7 +84,7 @@ export const SERVICES_DATA: ServiceCard[] = [
     title: "Infraestrutura Industrial",
     description: "Serviços especializados de infraestrutura elétrica e montagem eletromecânica de campo, garantindo máxima robustez física e proteção para os circuitos de potência e controle.",
     iconName: "Layers",
-    imageUrl: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=800",
+    imageUrl: "/infraestrutura-industrial.jpg",
     details: [
       "Montagem e fixação de sistemas de sustentação: leitos pesados, eletrocalhas, perfilados e dutos subterrâneos",
       "Lançamento, identificação e conectividade de cabos de potência (MT/BT), sinal de instrumentação e redes de fibra óptica",

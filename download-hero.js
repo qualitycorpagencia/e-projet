@@ -18,6 +18,10 @@ const filesToDownload = [
   {
     id: '1fKV8a28aNevUSNNLjd_-fbw7LK8o8j2W',
     dest: 'data-center.jpg'
+  },
+  {
+    id: '1pc9cpuuyw1MinfypZdKLUj4e2C17__A1',
+    dest: 'infraestrutura-industrial.jpg'
   }
 ];
 

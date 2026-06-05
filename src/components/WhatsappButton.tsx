@@ -14,7 +14,7 @@ export default function WhatsappButton() {
     return () => clearTimeout(timer);
   }, []);
 
-  const whatsappUrl = `https://wa.me/5516999999999?text=${encodeURIComponent(t.whatsapp.messageText)}`;
+  const whatsappUrl = `https://wa.me/5516994347777?text=${encodeURIComponent(t.whatsapp.messageText)}`;
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-2 font-barlow">

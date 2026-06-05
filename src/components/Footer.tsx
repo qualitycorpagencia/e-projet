@@ -43,7 +43,7 @@ export default function Footer({ onOpenLegal }: FooterProps) {
   };
 
   return (
-    <footer className="bg-[#050906] text-white pt-20 pb-8 border-t border-gray-900 font-barlow relative overflow-hidden">
+    <footer className="bg-[#050906] text-white pt-24 pb-12 border-t border-gray-900 font-barlow relative overflow-hidden font-medium">
       
       {/* Background ambient light */}
       <div className="absolute bottom-0 right-0 w-80 h-80 bg-primary-green/5 rounded-full blur-3xl -z-10"></div>
@@ -52,13 +52,13 @@ export default function Footer({ onOpenLegal }: FooterProps) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 mb-16">
           
           {/* Logo, Description & Socials */}
-          <div className="flex flex-col gap-6 lg:col-span-5 md:col-span-2">
+          <div className="flex flex-col gap-6 lg:col-span-5 md:col-span-2 items-start">
             <div 
-              className="w-[500px] max-w-full h-[100px] bg-white rounded-xl overflow-hidden flex items-center justify-start cursor-pointer group transition-transform duration-300 hover:scale-105" 
+              className="w-full max-w-md h-28 sm:h-32 md:h-36 flex items-center justify-start cursor-pointer group transition-transform duration-300 hover:scale-[1.03] -ml-4 sm:-ml-6 md:-ml-8" 
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             >
               <img 
-                src="https://lh3.googleusercontent.com/d/1RbdsK6rFfA41EnOt4U9-8HVtAf8AnqZC" 
+                src="/logo-footer.png" 
                 alt="E-Projet Logo" 
                 referrerPolicy="no-referrer"
                 className="h-full w-auto object-contain object-left"
@@ -84,7 +84,7 @@ export default function Footer({ onOpenLegal }: FooterProps) {
             
             {/* Logo Rodapé Config URL info */}
             <span className="text-[9px] text-gray-600 font-mono tracking-widest mt-2 uppercase">
-              Logo asset: 1RbdsK6rFfA41EnOt4U9-8HVtAf8AnqZC
+              Logo asset: 1SmEVDnz0zhwTDrj4ogxjyVBaJbSgrWtZ
             </span>
           </div>
 

@@ -258,7 +258,7 @@ export const TRANSLATIONS: Record<Language, TranslationSchema> = {
     },
     hero: {
       badge: "Engenharia & Automação Industrial Premium",
-      titleLine1: "Automação Industrial",
+      titleLine1: "Automação e Elétrica Industrial",
       titleLine2: "Inteligente",
       titleLine3: "para Empresas de",
       titleHighlight: "Alta Performance",
@@ -443,13 +443,13 @@ export const TRANSLATIONS: Record<Language, TranslationSchema> = {
       },
       projects: {
         proj1: {
-          title: "Infraestrutura MT — Planta de Bioenergia",
+          title: "FORNECIMENTO DE CUBÍCULOS BLINDADOS DE 17,8 kV",
           desc: "Fornecimento turnkey de cubículos blindados de 17,8 kV com tecnologia Metal-Clad, proteção ativa contra arco elétrico (Arc Flash), testes de rotina e homologação nas normas.",
           client: "Grande Indústria de Bioenergia e Grãos",
           location: "Jaíba - MG",
         },
         proj2: {
-          title: "Elétrica e Automação — Casa de Força Termelétrica",
+          title: "FORNECIMENTO TURNKEY DE PLANTA DE 5 MWh - GD",
           desc: "Implantação integrada com cubículos de MT, CLP Siemens S7-1500, supervisório espelhado redundante, AVR ABB Unitrol, retificadores 125 Vcc com banco de baterias e montagem em campo.",
           client: "Grande Produtor de Papel e Madeira",
           location: "Tunas do Paraná - PR",
@@ -522,10 +522,10 @@ export const TRANSLATIONS: Record<Language, TranslationSchema> = {
       contactBtnRoute: "Traçar Rota no Mapa",
     },
     whatsapp: {
-      tooltip: "Contato de Emergência Técnica",
-      messageText: "Olá E-Projet Engenharia! Vi seu site e gostaria de solicitar um atendimento técnico sobre automação e projetos industriais.",
-      tooltipTitle: "Engenharia de Plantão",
-      tooltipDesc: "Olá! Precisa de suporte técnico ou quer solicitar o escopo de um novo projeto industrial? Fale com nossos engenheiros agora.",
+      tooltip: "Solicitar Orçamento de Projetos",
+      messageText: "Olá E-Projet Engenharia! Gostaria de solicitar um orçamento para soluções de elétrica e automação industrial.",
+      tooltipTitle: "Orçamento de Projetos",
+      tooltipDesc: "Olá! Precisa de suporte técnico ou quer solicitar um orçamento para um novo projeto industrial? Fale com nossos engenheiros agora.",
     }
   },
   en: {
@@ -541,8 +541,8 @@ export const TRANSLATIONS: Record<Language, TranslationSchema> = {
     },
     hero: {
       badge: "Premium Industrial Automation & Engineering",
-      titleLine1: "Smart Industrial",
-      titleLine2: "Automation",
+      titleLine1: "Smart Automation & Electrical",
+      titleLine2: "Systems",
       titleLine3: "for High",
       titleHighlight: "Performance Companies",
       subtext: "Intelligent industrial automation systems, power electrical engineering, and complete turnkey engineering solutions to maximize productivity, ensure strict compliance, and prevent unscheduled downtime with high technical safety.",
@@ -726,13 +726,13 @@ export const TRANSLATIONS: Record<Language, TranslationSchema> = {
       },
       projects: {
         proj1: {
-          title: "MV Infrastructure — Bioenergy Plant",
+          title: "SUPPLY OF 17.8 kV SHIELDED SWITCHGEARS",
           desc: "Turnkey supply of 17.8 kV Metal-Clad shielded switchgears with active Arc Flash protection, routine factory tests, and final utility homologation.",
           client: "Large Bioenergy & Grain Producer",
           location: "Jaíba - MG, Brazil",
         },
         proj2: {
-          title: "Electrical & Automation — Thermoelectric Powerhouse",
+          title: "TURNKEY SUPPLY OF 5 MWh - DG POWER PLANT",
           desc: "Integrated deployment with MV switchgears, Siemens S7-1500 PLC, mirrored SCADA servers, ABB Unitrol AVR, 125VDC rectifiers, and field installation.",
           client: "Major Wood & Paper Manufacturer",
           location: "Tunas do Paraná - PR, Brazil",
@@ -805,10 +805,10 @@ export const TRANSLATIONS: Record<Language, TranslationSchema> = {
       contactBtnRoute: "Plan Route on Map",
     },
     whatsapp: {
-      tooltip: "Emergency Technical Callout",
-      messageText: "Hello E-Projet Engineering! I visited your website and am requesting electrical and automation services information.",
-      tooltipTitle: "Standby Engineering",
-      tooltipDesc: "Hello! Need technical support or want to request the scope of a new industrial project? Talk to our engineers now.",
+      tooltip: "Request Project Quote",
+      messageText: "Hello E-Projet Engineering! I would like to request a quote for industrial electrical and automation solutions.",
+      tooltipTitle: "Project Quote",
+      tooltipDesc: "Hello! Need technical support or want to request a quote for a new industrial project? Speak with our engineers now.",
     }
   },
   es: {
@@ -824,7 +824,7 @@ export const TRANSLATIONS: Record<Language, TranslationSchema> = {
     },
     hero: {
       badge: "Ingeniería y Automatización Industrial de Altoportento",
-      titleLine1: "Automatización Industrial",
+      titleLine1: "Automatización y Eléctrica Industrial",
       titleLine2: "Inteligente",
       titleLine3: "para Empresas de",
       titleHighlight: "Alta Performance",
@@ -1009,13 +1009,13 @@ export const TRANSLATIONS: Record<Language, TranslationSchema> = {
       },
       projects: {
         proj1: {
-          title: "Infraestructura de MT — Planta de Bioenergía",
+          title: "SUMINISTRO DE CABINAS BLINDADAS DE 17,8 kV",
           desc: "Suministro turnkey de cubículos blindados de 17,8 kV tipo Metal-Clad con sistemas activos contra arco eléctrico (Arc Flash), pruebas dieléctricas y homologación.",
           client: "Gran Industria de Bioenergía y Granos",
           location: "Jaíba - MG, Brasil",
         },
         proj2: {
-          title: "Eléctrica y Automatización — Casa de Fuerza Térmica",
+          title: "SUMINISTRO TURNKEY DE PLANTA DE 5 MWh - GD",
           desc: "Implementación integrada de celdas de MT, PLC Siemens S7-1500, supervisores SCADA redundantes, reguladores automáticos de tensión ABB Unitrol y banco de baterías.",
           client: "Gran Productor de Madera y Papel",
           location: "Tunas do Paraná - PR, Brasil",
@@ -1088,10 +1088,10 @@ export const TRANSLATIONS: Record<Language, TranslationSchema> = {
       contactBtnRoute: "Planificar Ruta en Mapa",
     },
     whatsapp: {
-      tooltip: "Llamada de Emergencia de Planta",
-      messageText: "Hola E-Projet Ingeniería! Visité su sitio web y me gustaría programar una evaluación técnica para proyectos de comandos y automatizaciones.",
-      tooltipTitle: "Guardia de Ingeniería",
-      tooltipDesc: "¡Hola! ¿Necesita soporte técnico o desea solicitar el alcance de un nuevo proyecto industrial? Hable con nuestros ingenieros ahora.",
+      tooltip: "Solicitar Presupuesto de Proyectos",
+      messageText: "¡Hola E-Projet Ingeniería! Me gustaría solicitar un presupuesto para soluciones de electricidad y automatización industrial.",
+      tooltipTitle: "Presupuesto de Proyectos",
+      tooltipDesc: "¡Hola! ¿Necesita soporte técnico o desea solicitar un presupuesto para un nuevo de proyecto industrial? Hable con nuestros ingenieros ahora.",
     }
   }
 };

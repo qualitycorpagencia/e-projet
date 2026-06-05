@@ -22,6 +22,14 @@ const filesToDownload = [
   {
     id: '1pc9cpuuyw1MinfypZdKLUj4e2C17__A1',
     dest: 'infraestrutura-industrial.jpg'
+  },
+  {
+    id: '1zkvVNL4zFm1pvLPbMtlibjZubm0G_G-g',
+    dest: 'logo-header.png'
+  },
+  {
+    id: '1SmEVDnz0zhwTDrj4ogxjyVBaJbSgrWtZ',
+    dest: 'logo-footer.png'
   }
 ];
 

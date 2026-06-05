@@ -19,7 +19,7 @@ export const SERVICES_DATA: ServiceCard[] = [
     title: "Engenharia Elétrica",
     description: "Soluções completas em engenharia elétrica de potência, focadas na máxima segurança operacional, eficiência energética e total conformidade normativa.",
     iconName: "Zap",
-    imageUrl: "https://lh3.googleusercontent.com/d/1JffDMATT9aiTXFuE4-whz3o5rcUxDVPK",
+    imageUrl: "https://lh3.googleusercontent.com/d/1qUcFQobAP8twHlqiq9O7souL8VABf5Cm",
     details: [
       "Projetos de subestações de média e alta tensão (MT/AT), cabines primárias e Greenfield/Brownfield",
       "Projetos e laudos de SPDA e aterramento industrial (em total conformidade com a ABNT NBR 5419)",
@@ -32,7 +32,7 @@ export const SERVICES_DATA: ServiceCard[] = [
     title: "Projetos Industriais",
     description: "Desenvolvimento de projetos executivos multidisciplinares e documentação técnica precisa para implantação, ampliação e modernização de ativos industriais.",
     iconName: "FileText",
-    imageUrl: "/projetos-industriais.jpg",
+    imageUrl: "https://lh3.googleusercontent.com/d/1wZ71UkD0wWkcsb7aUdtJWM3fMyrEMb7D",
     details: [
       "Detalhamento eletromecânico, dimensionamento e diagramas de rotas de cabos (leitos, canaletas e eletrodutos)",
       "Laudos de adequação e projetos de engenharia focados em segurança operacional (NR-10 e NR-12)",
@@ -84,7 +84,7 @@ export const SERVICES_DATA: ServiceCard[] = [
     title: "Infraestrutura Industrial",
     description: "Serviços especializados de infraestrutura elétrica e montagem eletromecânica de campo, garantindo máxima robustez física e proteção para os circuitos de potência e controle.",
     iconName: "Layers",
-    imageUrl: "/infraestrutura-industrial.jpg",
+    imageUrl: "https://lh3.googleusercontent.com/d/1NKrnEVRx_9ad9qkG5OBGjTY6xfhOnEyo",
     details: [
       "Montagem e fixação de sistemas de sustentação: leitos pesados, eletrocalhas, perfilados e dutos subterrâneos",
       "Lançamento, identificação e conectividade de cabos de potência (MT/BT), sinal de instrumentação e redes de fibra óptica",
@@ -137,7 +137,7 @@ export const DIFFERENTIALS_DATA: DifferentialItem[] = [
 export const PORTFOLIO_DATA: PortfolioProject[] = [
   {
     id: "proj-1",
-    title: "Infraestrutura MT — Planta de Bioenergia",
+    title: "FORNECIMENTO DE CUBÍCULOS BLINDADOS DE 17,8 kV",
     category: "Engenharia Elétrica",
     imageUrl: "https://lh3.googleusercontent.com/d/1e_ypqmhhcyTneFRgkCJHOGyxZHz0pVNU",
     description: "Fornecimento turnkey de cubículos blindados de 17,8 kV com tecnologia Metal-Clad, proteção ativa contra arco elétrico (Arc Flash), testes de rotina e homologação nas normas.",
@@ -147,7 +147,7 @@ export const PORTFOLIO_DATA: PortfolioProject[] = [
   },
   {
     id: "proj-2",
-    title: "Elétrica e Automação — Casa de Força Termelétrica",
+    title: "FORNECIMENTO TURNKEY DE PLANTA DE 5 MWh - GD",
     category: "Automação Industrial",
     imageUrl: "https://lh3.googleusercontent.com/d/18Y4Z0GptbQzIREXaUJdXlJbtykfneVyc",
     description: "Implantação integrada com cubículos de MT, CLP Siemens S7-1500, supervisório espelhado redundante, AVR ABB Unitrol, retificadores 125 Vcc com banco de baterias e montagem em campo.",

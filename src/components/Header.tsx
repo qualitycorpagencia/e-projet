@@ -55,7 +55,7 @@ export default function Header() {
     <header
       className="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-white border-b border-gray-200 py-3 md:py-4 shadow-md shadow-gray-200/15"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1360px] mx-auto px-4 sm:px-6 lg:px-6 xl:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div 
@@ -67,39 +67,39 @@ export default function Header() {
                 window.scrollTo({ top: 0, behavior: "smooth" });
               }
             }}
-            className="flex items-center gap-2.5 cursor-pointer group"
+            className="flex items-center gap-2.5 cursor-pointer group shrink-0 lg:mr-4 xl:mr-8"
           >
             <img 
-              src="https://lh3.googleusercontent.com/d/1HLVX6ddryrY2qAcVD7hxd4r_J89tRL5F" 
+              src="/logo-header.png" 
               alt="E-Projet Logo" 
               referrerPolicy="no-referrer"
-              className="h-14 md:h-16 w-[202px] md:w-[240px] max-w-full object-contain transition-transform duration-300 hover:scale-105"
+              className="h-12 md:h-15 w-auto max-w-[200px] md:max-w-[245px] object-contain transition-transform duration-300 hover:scale-105"
             />
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-4 xl:gap-8 font-barlow">
+          <nav className="hidden lg:flex items-center lg:gap-2.5 xl:gap-5 2xl:gap-8 font-barlow shrink-0">
             <button
               onClick={() => scrollToSection("sobre")}
-              className="text-[13px] xl:text-sm font-semibold uppercase tracking-wider text-gray-800 hover:text-primary-dark-green transition-colors cursor-pointer relative py-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary-green after:transition-all hover:after:w-full"
+              className="text-[12px] xl:text-[13px] 2xl:text-sm font-bold uppercase tracking-wider text-gray-800 hover:text-primary-dark-green transition-colors cursor-pointer relative py-1 whitespace-nowrap shrink-0 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary-green after:transition-all hover:after:w-full"
             >
               {t.header.about}
             </button>
             <button
               onClick={() => scrollToSection("servicos")}
-              className="text-[13px] xl:text-sm font-semibold uppercase tracking-wider text-gray-800 hover:text-primary-dark-green transition-colors cursor-pointer relative py-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary-green after:transition-all hover:after:w-full"
+              className="text-[12px] xl:text-[13px] 2xl:text-sm font-bold uppercase tracking-wider text-gray-800 hover:text-primary-dark-green transition-colors cursor-pointer relative py-1 whitespace-nowrap shrink-0 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary-green after:transition-all hover:after:w-full"
             >
               {t.header.services}
             </button>
             <button
               onClick={() => scrollToSection("diferenciais")}
-              className="text-[13px] xl:text-sm font-semibold uppercase tracking-wider text-gray-800 hover:text-primary-dark-green transition-colors cursor-pointer relative py-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary-green after:transition-all hover:after:w-full"
+              className="text-[12px] xl:text-[13px] 2xl:text-sm font-bold uppercase tracking-wider text-gray-800 hover:text-primary-dark-green transition-colors cursor-pointer relative py-1 whitespace-nowrap shrink-0 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary-green after:transition-all hover:after:w-full"
             >
               {t.header.differentials}
             </button>
             <button
               onClick={() => scrollToSection("portfolio")}
-              className="text-[13px] xl:text-sm font-semibold uppercase tracking-wider text-gray-800 hover:text-primary-dark-green transition-colors cursor-pointer relative py-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary-green after:transition-all hover:after:w-full"
+              className="text-[12px] xl:text-[13px] 2xl:text-sm font-bold uppercase tracking-wider text-gray-800 hover:text-primary-dark-green transition-colors cursor-pointer relative py-1 whitespace-nowrap shrink-0 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary-green after:transition-all hover:after:w-full"
             >
               {t.header.portfolio}
             </button>
@@ -108,7 +108,7 @@ export default function Header() {
                 setCurrentView({ page: "cases" });
                 window.scrollTo({ top: 0, behavior: "smooth" });
               }}
-              className={`text-[13px] xl:text-sm font-semibold uppercase tracking-wider hover:text-primary-dark-green transition-colors cursor-pointer relative py-1 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:bg-primary-green after:transition-all hover:after:w-full ${
+              className={`text-[12px] xl:text-[13px] 2xl:text-sm font-bold uppercase tracking-wider hover:text-primary-dark-green transition-colors cursor-pointer relative py-1 whitespace-nowrap shrink-0 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:bg-primary-green after:transition-all hover:after:w-full ${
                 currentView.page === "cases"
                   ? "text-primary-dark-green after:w-full font-bold"
                   : "text-gray-800 after:w-0"
@@ -118,17 +118,17 @@ export default function Header() {
             </button>
             <button
               onClick={() => scrollToSection("contato")}
-              className="text-[13px] xl:text-sm font-semibold uppercase tracking-wider text-gray-800 hover:text-primary-dark-green transition-colors cursor-pointer relative py-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary-green after:transition-all hover:after:w-full"
+              className="text-[12px] xl:text-[13px] 2xl:text-sm font-bold uppercase tracking-wider text-gray-800 hover:text-primary-dark-green transition-colors cursor-pointer relative py-1 whitespace-nowrap shrink-0 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary-green after:transition-all hover:after:w-full"
             >
               {t.header.contact}
             </button>
 
             {/* Desktop Language Selector (Flag Icons) */}
-            <div className="flex items-center gap-1.5 xl:gap-2 border-l border-gray-100 pl-3 xl:pl-4">
+            <div className="flex items-center gap-1.5 xl:gap-2 border-l border-gray-100 pl-2.5 xl:pl-4 shrink-0">
               <button
                 onClick={() => setLanguage("pt")}
                 title="Português (BR)"
-                className={`w-6.5 h-6.5 xl:w-7 xl:h-7 rounded-full border-2 overflow-hidden flex items-center justify-center transition-all duration-300 transform cursor-pointer hover:scale-110 active:scale-95 ${
+                className={`w-6 h-6 xl:w-6.5 xl:h-6.5 2xl:w-7 2xl:h-7 rounded-full border-2 overflow-hidden flex items-center justify-center transition-all duration-300 transform cursor-pointer hover:scale-110 active:scale-95 ${
                   language === "pt"
                     ? "border-primary-green ring-2 ring-primary-green/25 scale-105"
                     : "border-gray-200 opacity-60 hover:opacity-100"
@@ -144,7 +144,7 @@ export default function Header() {
               <button
                 onClick={() => setLanguage("en")}
                 title="English (US)"
-                className={`w-6.5 h-6.5 xl:w-7 xl:h-7 rounded-full border-2 overflow-hidden flex items-center justify-center transition-all duration-300 transform cursor-pointer hover:scale-110 active:scale-95 ${
+                className={`w-6 h-6 xl:w-6.5 xl:h-6.5 2xl:w-7 2xl:h-7 rounded-full border-2 overflow-hidden flex items-center justify-center transition-all duration-300 transform cursor-pointer hover:scale-110 active:scale-95 ${
                   language === "en"
                     ? "border-primary-green ring-2 ring-primary-green/25 scale-105"
                     : "border-gray-200 opacity-60 hover:opacity-100"
@@ -160,7 +160,7 @@ export default function Header() {
               <button
                 onClick={() => setLanguage("es")}
                 title="Español (ES)"
-                className={`w-6.5 h-6.5 xl:w-7 xl:h-7 rounded-full border-2 overflow-hidden flex items-center justify-center transition-all duration-300 transform cursor-pointer hover:scale-110 active:scale-95 ${
+                className={`w-6 h-6 xl:w-6.5 xl:h-6.5 2xl:w-7 2xl:h-7 rounded-full border-2 overflow-hidden flex items-center justify-center transition-all duration-300 transform cursor-pointer hover:scale-110 active:scale-95 ${
                   language === "es"
                     ? "border-primary-green ring-2 ring-primary-green/25 scale-105"
                     : "border-gray-200 opacity-60 hover:opacity-100"
@@ -178,9 +178,9 @@ export default function Header() {
             {/* Desktop CTA Button */}
             <button
               onClick={() => scrollToSection("contato")}
-              className="flex items-center gap-1.5 xl:gap-2 bg-primary-green hover:bg-primary-dark-green text-black font-semibold text-[13px] xl:text-sm px-3.5 py-2 xl:px-5 xl:py-2.5 rounded transition-all duration-300 transform active:scale-95 cursor-pointer shadow-lg shadow-primary-green/20 shrink-0"
+              className="flex items-center gap-1.5 bg-primary-green hover:bg-primary-dark-green text-black font-semibold text-[11px] xl:text-[13px] 2xl:text-sm px-2.5 py-1.5 xl:px-4 xl:py-2.5 rounded transition-all duration-300 transform active:scale-95 cursor-pointer shadow-lg shadow-primary-green/20 shrink-0 whitespace-nowrap"
             >
-              <Phone className="w-3.5 h-3.5 xl:w-4 xl:h-4" />
+              <Phone className="w-3.5 h-3.5 xl:w-4 xl:h-4 shrink-0" />
               <span>{t.header.cta}</span>
             </button>
           </nav>

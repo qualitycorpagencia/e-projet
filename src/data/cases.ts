@@ -130,7 +130,7 @@ export const CASES_DATA: Record<"pt" | "en" | "es", CaseStudy[]> = {
     },
     {
       id: "case-6",
-      title: "Engenharia de Sistemas, Integração em Rede Ethernet e Automação Centralizada (COI) para Planta de Bioenergia",
+      title: "FORNECIMENTO DE AUTOMAÇÃO E ELÉTRICA DE USINA DE BIOENERGIA, COM GERAÇÃO DE 30 MWh e CALDEIRA DE 100 bar / 260 ton/h Vapor",
       badge: "Estudo de Caso 06",
       location: "Montes Claros de Goiás, Goiás",
       status: "Concluído dentro do prazo estipulado e com alta conformidade técnica",
